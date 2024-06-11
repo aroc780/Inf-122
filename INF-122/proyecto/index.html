@@ -1,125 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <link rel="stylesheet" href="style.css">
     <title>Proyecto</title>
-
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="logo" width="52" height="36">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>   
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Menu</a>
-                    <a class="nav-link" href="#">Nosotros</a>
-                    <a class="nav-link" href="#">Contactos</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    
+    <!-- header -->
 
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/baner2.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>Serviocio de seguridad privada</h5>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quasi aliquam eius libero adipisci 
-                quibusdam alias. Molestias, porro consequuntur vero maxime totam corrupti veniam voluptates minima assumenda suscipit, mollitia ullam.</p>
-                <p><a href="#" class="btn btn-primary mt-3">Leer Mar</a> </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/baner3.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>Para todo tipo de eventos</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam suscipit, eum eveniet animi dolor sequi adipisci 
-                aliquam recusandae sint libero quia itaque enim. Dignissimos eius accusantium dolores corrupti sapiente nihil.</p>
-                <p><a href="#" class="btn btn-primary mt-3">Leer Mar</a> </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/baner4.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>Confianza y seguridad</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum nulla quas aliquam optio incidunt nihil eveniet esse officiis aspernatur 
-                magni delectus exercitationem at dolore maxime hic, sapiente accusantium quae.</p>
-                <p><a href="#" class="btn btn-primary mt-3">Leer Mar</a> </p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    <header class="header">
 
-      <section class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4 mb-3">
-                    <div class="card text-white text-center bg-car1 pb-2">
-                        <div class="card-body">
-                            <h3 class="card-title">PAQUETE ALFA</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quo velit quos ex nemo aliquid, earum, 
-                                beatae cupiditate voluptate facilis exercitationem ipsam aut. Aliquid aut amet ipsam fugit harum rerum.</p>
-                            <button class="btn btn-primary text-white">Leer más</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-3">
-                    <div class="card text-white text-center bg-car2 pb-2">
-                        <div class="card-body">
-                            <h3 class="card-title">PAQUETE BETA</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quo velit quos ex nemo aliquid, earum, 
-                                beatae cupiditate voluptate facilis exercitationem ipsam aut. Aliquid aut amet ipsam fugit harum rerum.</p>
-                            <button class="btn btn-primary text-white">Leer más</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-3">
-                    <div class="card text-white text-center bg-car3 pb-2">
-                        <div class="card-body">
-                            <h3 class="card-title">PAQUETE DELTA</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quo velit quos ex nemo aliquid, earum, 
-                                beatae cupiditate voluptate facilis exercitationem ipsam aut. Aliquid aut amet ipsam fugit harum rerum.</p>
-                            <button class="btn btn-primary text-white">Leer más</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <a href="#" class="logo"> <img src="img/logo.png" alt="Logo" class="logo-img"> SEGURIDAD PRIVADA Z.A.C</a>
+    
+        <nav class="navbar">
+            <a href="#home" class="active">inicio</a>
+            <a href="#about">sobre nosotros</a>
+            <a href="#services">servicios</a>
+            <a href="#pricing">precios</a>
+            <a href="#registro">contacto</a>
+        </nav>
+    
+        <div id="menu" class="fas fa-bars"></div>
+    
+    </header>
+    
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Servicio de<br> <span>Segruidad </span> <br>Privada</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi nostrum cupiditate rerum 
+                repellendus nemo dolor consectetur aspernatur.</p>
+            <a href="#" class="btn">Para mayor informacion</a>
         </div>
+
     </section>
 
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <div class="row">
+
+            <div class="content">
+                <span> sobre nosotros </span>
+                <h3>Personal altamente capacitado</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, 
+                    soluta quia aspernatur ipsum, amet mollitia molestiae recusandae 
+                    ab distinctio blanditiis rem corrupti assumenda nesciunt ratione, 
+                    provident harum quidem non excepturi?</p>
+                <ul>
+                    <li> <i class="far fa-check-square"></i> equipamiento tactico </li>
+                    <li> <i class="far fa-check-square"></i> personal preparado parata todo tipo de acontecimientos </li>
+                    <li> <i class="far fa-check-square"></i> personal capacitado en primeros auxilios </li>
+                    <li> <i class="far fa-check-square"></i> mantenenmos el orden y el respeto </li>
+                </ul>    
+                <a href="#" class="btn">Mas informacion</a>
+            </div>
+
+            <div class="image">
+                <img src="img/banner5.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- services -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">Nuestros serviocios de seguirdad</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/banner6.jpg" alt="">
+                <div class="content">
+                    <h3>guardia personal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/baner4.png" alt="">
+                <div class="content">
+                    <h3>guardia privada</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/banner7.jpeg" alt="">
+                <div class="content">
+                    <h3>guardias para envetos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/banner5.jpg" alt="">
+                <div class="content">
+                    <h3>guardia centinelas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/bn2.jpg" alt="">
+                <div class="content">
+                    <h3>guardia de interiores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/bn2.jpg" alt="">
+                <div class="content">
+                    <h3>servicio personalizado</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+
+    <!-- pricing -->
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading">Plan de procios</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>plan basico</h3>
+                <div class="price"><span>$ </span>100<span>/guarida</span></div>
+                <h3 class="month">2 guardias</h3>
+                <div class="list">
+                    <p><i class="fas fa-check"></i> equipamiento basico</p>
+                    <p><i class="fas fa-check"></i> vestimenta formal</p>
+                </div>
+                <a href="#" class="btn">elegir plan</a>
+            </div>
+
+            <div class="box">
+                <h3>plan estándar</h3>
+                <div class="price"><span>$ </span>120<span>/guardia</span></div>
+                <h3 class="month">4 - 6 guadias</h3>
+                <div class="list">
+                    <p><i class="fas fa-check"></i> equipamiennto basico</p>
+                    <p><i class="fas fa-check"></i> vestimenta formal</p>
+                    <p><i class="fas fa-check"></i> equipamento tactico</p>
+                </div>
+                <a href="#" class="btn">elegir plan</a>
+            </div>
+
+            <div class="box">
+                <h3>plan premium</h3>
+                <div class="price"><span>$ </span>150 <span>/guardia</span></div>
+                <h3 class="month">6 - 12 guardias</h3>
+                <div class="list">
+                    <p><i class="fas fa-check"></i> equipamiento basico</p>
+                    <p><i class="fas fa-check"></i> vestimenta formal</p>
+                    <p><i class="fas fa-check"></i> equipamiento tactico</p>
+                    <p><i class="fas fa-check"></i> altamente entrenados</p>
+                    <p><i class="fas fa-check"></i> material para controlar disturbios</p>
+                </div>
+                <a href="#" class="btn">elegir plan</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- team -->
     <section class="section-icons">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4 box-icons">
-                    <div class="d-flex align-items-center">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-4 col-lg-4 box-icons">
+                    <div class="d-flex align-items-start">
                         <i class="bi bi-file-earmark-richtext"></i>
                         <div class="ms-4">
                             <h3>Contrato</h3>
@@ -127,8 +216,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 box-icons">
-                    <div class="d-flex align-items-center">
+                <div class="col-12 col-md-4 col-lg-4 box-icons">
+                    <div class="d-flex align-items-start">
                         <i class="bi bi-shield-check"></i>
                         <div class="ms-4">
                             <h3>Garantia</h3>
@@ -136,8 +225,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 box-icons">
-                    <div class="d-flex align-items-center">
+                <div class="col-12 col-md-4 col-lg-4 box-icons">
+                    <div class="d-flex align-items-start">
                         <i class="bi bi-currency-dollar"></i>
                         <div class="ms-4">
                             <h3>Horas Extra</h3>
@@ -148,128 +237,83 @@
             </div>
         </div>
     </section>
-      <section class="producto">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-5">
-                        <h2>Equipo</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium quidem culpa perferendis est 
-                        laboriosam aliquid deleniti rem omnis, amet hic repellat sit facilis ducimus voluptatibus quae, necessitatibus ipsam quod.</p>
-                    </div>
+
+    
+    
+    
+    <!-- end -->
+
+    <!-- register -->
+
+    <section class="formulario-container" id="registro">
+        <section class="formulario" id="formulario">
+            <form action="https://formsubmit.co/aroc780@gmail.com" method="POST" autocomplete="off">
+                <h2 class="form_title">Contacto</h2>
+                <div class="form_text">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos y condiciones</a>
                 </div>
-            </div>    
-        </div>    
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card bg-ligth shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text-center">
-                        <img src="img/equipo1.jpg" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Tolete Tactico</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque quisquam dolorem reprehenderit,
-                             cumque molestiae voluptatibus laborum quae aliquid voluptates excepturi pariatur quam, delectus ab impedit labore veniam fugiat! Blanditiis!</p>
-
-                    </div>
-
+                <div class="input-grup">
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                    <input type="tel" name="phone" placeholder="Teléfono">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    <input class="btn" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/nuevo/cronos.html">
+                    <input type="hidden" name="_captcha" value="false">
                 </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card bg-ligth shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text-center">
-                        <img src="img/equipo 2.png" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Gas Pimienta</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque quisquam dolorem reprehenderit,
-                             cumque molestiae voluptatibus laborum quae aliquid voluptates excepturi pariatur quam, delectus ab impedit labore veniam fugiat! Blanditiis!</p>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card bg-ligth shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text-center">
-                        <img src="img/equipo 4.jpeg" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Pistola de Electroshock</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque quisquam dolorem reprehenderit,
-                             cumque molestiae voluptatibus laborum quae aliquid voluptates excepturi pariatur quam, delectus ab impedit labore veniam fugiat! Blanditiis!</p>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card bg-ligth shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text-center">
-                        <img src="img/equipo3.jpg" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Equipo Tactico</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque quisquam dolorem reprehenderit,
-                             cumque molestiae voluptatibus laborum quae aliquid voluptates excepturi pariatur quam, delectus ab impedit labore veniam fugiat! Blanditiis!</p>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-      </section>
-      <section class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>Seguridad y Confianza</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, 
-                    tempora provident. Non consectetur cum facere sit iure molestias, error ut praesentium voluptatibus, rerum ipsum tempore dolorum. Fuga officiis tempora debitis.</p>
-                    <div>
-                        <img src="img/banner3.jpg" alt="...">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-      </section>
-
-      <section class="contact">
-        <div class="container mb-3 mb-lg-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-2 pb-lg-5">
-                        <h2>Contacto</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero qui tempora magni quod cumque neque autem, quia ipsam dolorum nam iure, natus nihil temporibus placeat alias. Incidunt, obcaecati? Quam?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
-                    <form action="#" class="bg-light p-4 m-auto shadow-sm">
-                        <div class="mb-3">
-                            <input class="form-control" placeholder="Nombre" type="text" required>
-                        </div>
-                        <div class="mb-3">
-                            <input class="form-control" placeholder="Email" type="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" placeholder="Mensaje" rows="3" required></textarea>
-                        </div>
-                        <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+            </form>
+        </section>
     </section>
-    <footer class="bg-dark p-2 text-center">
-        <div class="container">
-            <p class=" text-white">Todos los derechos reservados</p>
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="bi bi-file-earmark-text-fill"></i> reglamento</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.</p>
+            </div>
+
+            <div class="box">
+                <h3>contactanos mas rapido</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +147-845-9632</a>
+                <a href="#"> <i class="fas fa-phone"></i> +258-963-4569</a>
+                <a href="#"> <i class="fas fa-envelope"></i> seguridadZac@gmail.com</a>
+                <a href="#"> <i class="fas fa-map"></i> karachi, pakistan</a>
+            </div>
+
+            <div class="box">
+                <h3>menu</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> services</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> pricing</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> team</a>
+            </div>
+
 
         </div>
-    </footer>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="credit">&copy; todos los derechos reservados |  <span>ZAC 2024</span></div>
+
+    </section>
+
+    <!-- end -->
+
+
+
+
+    
 
 
 
@@ -278,14 +322,12 @@
 
 
 
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- custom js -->
+    <script src="js/script.js"></script>
 
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
