@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/equipo.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- header -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <img src="img/logo.png" alt="Logo" class="logo-img"> SEGURIDAD PRIVADA Z.A.C</a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">inicio</a>
+        <a href="#about">sobre nosotros</a>
+        <a href="#registro">contacto</a>
+        <a href="#registro">Unete al equipo</a>
+    </nav>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+</header>
+
+
+<!-- end -->
+<section id="home" class="section">
+    <div class="container">
+        <h1>Welcome to SEGURIDAD PRIVADA Z.A.C</h1>
+        <p>We are committed to providing top-notch security services.</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>SEGURIDAD PRIVADA Z.A.C is a leading security company dedicated to ensuring safety and security for our clients.</p>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Security Guard Services</li>
+            <li>Surveillance Systems Installation</li>
+            <li>Event Security</li>
+            <li>Consulting Services</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="team" class="section">
+    <div class="container">
+        <h2>Our Team</h2>
+        <p>We have a dedicated team of security professionals with years of experience.</p>
+    </div>
+</section>
+
+<section id="register" class="section">
+    <div class="container">
+        <h2>Register to Join Us</h2>
+        <form action="registration.php" method="POST" class="registration-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                <small>Accepted file formats: PDF, DOC, DOCX</small>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Register</button>
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><i class="bi bi-file-earmark-text-fill"></i> reglamento</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.</p>
+        </div>
+
+        <div class="box">
+            <h3>contactanos mas rapido</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +147-845-9632</a>
+            <a href="#"> <i class="fas fa-phone"></i> +258-963-4569</a>
+            <a href="#"> <i class="fas fa-envelope"></i> seguridadZac@gmail.com</a>
+            <a href="#"> <i class="fas fa-map"></i> karachi, pakistan</a>
+        </div>
+
+        <div class="box">
+            <h3>menu</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> services</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> pricing</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> team</a>
+        </div>
+
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit">&copy; todos los derechos reservados |  <span>ZAC 2024</span></div>
+
+</section>
+
+      <!-- jquery cdn link  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+      <!-- custom js -->
+      <script src="js/script.js"></script>
+  
+</body>
+</html>
